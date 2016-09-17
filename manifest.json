@@ -1,0 +1,14 @@
+{ 
+    "manifest_version": 2,
+
+    "name": "Facebook Messenger Quick Switcher",
+    "description": "Quickly navigate between your facebook messenger conversations",
+    "version": "0.1", 
+    
+    "permissions": [ "https://www.messenger.com/*" ],
+    
+    "content_scripts": [{
+        "matches":["https://*.messenger.com/*"],
+        "js": ["jquery-3.1.0.min.js", "switch.js"]
+    }]
+}
