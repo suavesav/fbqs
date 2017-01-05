@@ -4,7 +4,10 @@
     "name": "Facebook Messenger Quick Switcher",
     "description": "Quickly navigate between your facebook messenger conversations",
     "version": "0.1", 
-    
+    "icons": {
+        "32": "facebook.png", 
+        "128": "facebook_128.png" }, 
+
     "permissions": [ "https://www.messenger.com/*" ],
     
     "content_scripts": [{
